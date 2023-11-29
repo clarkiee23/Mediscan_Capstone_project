@@ -1,0 +1,50 @@
+.hd-dashboard{
+    padding: 20px;
+    width: 90%;
+    margin-top: 0;
+}
+
+.patient-role-btn #pr-btn1{
+    border: none;
+    margin: 0px;
+    width: 15%;
+}
+.patient-role-btn #pr-btn2{
+    border: none;
+    margin-left: -5px;
+    width: 15%;
+}
+.health-data{
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    padding: 20px;
+    margin: auto;
+    
+}
+.health-data-addbtn{
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    padding: 0px 15px 0px 15px;
+    margin: auto;
+    display: inline-flex;
+}
+#btn-data{
+    background-color: gray;
+}
+#btn-batchdata{
+    background-color: gray;
+    margin-top: 8px;
+}
+.hlth-dta{
+    padding: 5px 10px 5px 10px;
+    width: 42%;
+    float: right;
+}
+.hlth-dta h3{
+    float: right;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.health-data i{
+    color: #3f3f3f; 
+}

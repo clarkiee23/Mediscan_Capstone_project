@@ -1,0 +1,143 @@
+.main_body .sidebar_menu{
+    position: fixed;
+    border-right: 0.2px solid rgb(187, 187, 187);
+    top: 55.4px;
+    left: 0;
+    background: #0087ff;
+    width: 240px;
+    height: 100%;
+    transition: all 0.3s linear;
+    z-index: 3;
+}
+
+.main_body .sidebar_menu .inner__sidebar_menu{
+  position: relative;
+  padding-top: 60px;
+}
+.main_body .sidebar_menu ul{
+  padding: 0;
+}
+
+.main_body .sidebar_menu ul li a{
+  color: #ececec;
+  font-size: 15px;
+  padding: 15px 35px;
+  display: block;
+  white-space: nowrap;
+}
+
+.main_body .sidebar_menu ul li a .icon{
+  margin-right: 8px;
+}
+
+.main_body .sidebar_menu ul li a span{
+  display: inline-block;
+}
+
+.main_body .sidebar_menu ul li a:hover{
+  background: #006dff;
+  color: #ececec;
+}
+
+.main_body .sidebar_menu ul li a.active{
+  /* background: #006dff; */
+  color: #ececec;
+}
+
+.main_body .sidebar_menu .hamburger{
+  position: absolute;
+  top: 0px;
+  right: -25px;
+  width: 50px;
+  height: 50px;
+  background: #e8edf5;
+  box-shadow: 2px 2px 3px #999;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.main_body .sidebar_menu .inner_hamburger,
+.main_body .sidebar_menu .hamburger .arrow{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.main_body .sidebar_menu .inner_hamburger{
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+  background: #006dff;
+}
+
+.main_body .sidebar_menu .hamburger .arrow{
+  color: #fff;
+  font-size: 20px;
+}
+
+.main_body .sidebar_menu .hamburger  .fa-long-arrow-alt-right{
+  display: none;
+}
+
+.main_body .main-container{
+  width: calc(100% - 250px);
+  margin-top: 50px;
+  margin-left: 250px;
+  transition: all 0.3s linear;
+}
+
+/* after adding active class */
+.wrapper.active .sidebar_menu{
+  width: 100px;
+}
+
+.wrapper.active .hamburger .fa-long-arrow-alt-right{
+  display: block;
+}
+
+.wrapper.active .hamburger .fa-long-arrow-alt-left{
+  display: none;
+}
+
+.wrapper.active .sidebar_menu ul li a .list{
+  display: none;
+}
+
+.wrapper.active #acdLogo{
+  display: none;
+}
+.wrapper.active #acdLogo2{
+  display: block;
+}
+.wrapper.active .logo p{
+  display: block;
+}
+.wrapper.active .top_navbar .logo{
+  background: #006dff;
+}
+
+.wrapper.active .main_body .main-container{
+  width: calc(100% - 100px);
+  margin-left: 100px;
+  background-color: #f4f4f4;
+}
+
+/* msg-sidenav */
+
+.patient-msgs a{
+  cursor: pointer;
+  text-decoration: none;
+  color: #ececec;
+  font-size: 14px;
+}
+.patient-msgs td{
+  padding: 3px 3px 3px 20px;
+}
+.patient-msgs hr{
+  margin: 5px 0px 0px 0px;
+  color: rgb(249, 246, 246);
+}
+.patient-avatar{
+  width: 35px;
+}

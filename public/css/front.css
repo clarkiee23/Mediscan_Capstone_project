@@ -1,0 +1,171 @@
+.front-container{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #00adef;
+    background: linear-gradient(to bottom, #ffff, #add4fd, #007bff);
+}
+.container{
+    position: relative;
+    text-align: center;
+    padding: 20px 25px;
+    width: 350px;
+    background: #ffff; 
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3)
+}
+.container .card, .card-header{
+    border: none;
+    background-color: #ffff;
+}
+#acdlogo{
+    min-width: 10%;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 10px;
+}
+.switch{
+    position: absolute;
+    /* display: flex; */
+    width: 85%;
+    border-bottom: 1px solid #007bff;
+}
+.switch.active{
+    border-bottom: 1px solid #046af6;
+}
+.switch:after{
+    content: '';
+    height: 6px;
+    width: 60px;
+    background: #007bff;
+    border-radius: 60px 60px 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    transition: 0.3s ease;
+}
+.switch.active:after{
+    left: 230px;
+    width: 60px;
+    background: #046af6 ;
+}
+.loginn{
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    background: #007bff;
+    border-radius: 50px;
+    float: left;
+    /* margin-left: 4px; */
+    font-size: 13px;
+    letter-spacing:1px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.signupp{
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    /* background: linear-gradient(45deg, #0326f9, #01fcf9); */
+    border-radius: 50px;
+    float: right;
+    /* margin-left: 4px; */
+    font-size: 13px;
+    letter-spacing:1px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.container .outer{
+    /* width: 90%; */
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.outer #form{
+    width: 200%;
+    position: relative;
+    display: flex;
+    margin: auto;
+    transition: 0.2s ease-in-out;
+}
+#page1{
+    margin: auto;
+    width: 100%;
+}
+#page2{
+    margin: auto;
+    width: 100%;
+}
+.outer label{
+    display: block;
+    margin-bottom: 2px;
+    padding: 5px 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.element{
+    position: relative;
+}
+/* .element input{
+    width: 80%;
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background: #2a2a2a;
+    border: 1px solid #2a2a2a;
+    padding-left: 40px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+input::placeholder{
+    color: #2a2a2a;
+    font-size: 13px;
+}
+.element span{
+    position: absolute;
+    left: 45px;
+    top: 8px;
+    font-size: 15px;
+} */
+#btnn1{
+    padding: 5px 25px;
+    width: 100%;
+    color: #ffff;
+    background: #007bff;
+    border-radius: 2px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 3px;
+    cursor: pointer;
+}
+#btnn1:hover{
+    padding: 5px 25px;
+    width: 100%;
+    color: #000;
+    background: #01a3fb;
+    border-radius: 2px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 3px;
+    cursor: pointer;
+}
+#btnn1:active{
+    transform: scale(1.01);
+}
+#btnn2{
+    padding: 5px 25px;
+    width: 80%;
+    background: #007bff;
+    border-radius: 50px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 3px;
+    cursor: pointer;
+}
+#btnn2:active{
+    transform: scale(1.01);
+}

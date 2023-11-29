@@ -1,0 +1,139 @@
+.wrapper .top_navbar{
+    width: 100%;
+    height: 55px;
+    /* display: flex; */
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    border-bottom: 0.2px solid rgb(187, 187, 187);
+    z-index: 4;
+}
+.wrapper a{
+  text-decoration: none;
+}
+.wrapper ul li{
+  list-style: none;
+}
+
+.wrapper .top_navbar .logo{
+    width: 240px;
+    height: 102%;
+    border-right: 0.2px solid rgb(187, 187, 187);
+    background: #0087ff;
+    float: left;
+}
+
+.logo #acdLogo2{
+    display: none;
+    position: absolute;
+    top: 2px;
+    margin-left: 5px;
+    width: 50px;
+    cursor: pointer;
+    z-index: 3;
+}
+.logo p{
+    display: none;
+    position: absolute;
+    top: 20px;
+    margin-left: 60px;
+    color: #ececec;
+    font-size: 14px;
+}
+
+.wrapper .top_navbar .logo #acdLogo{
+    position: absolute;
+    top: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 110px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.wrapper .top_navbar .logout-user{
+    padding: 20px 0 15px 0;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 15px;
+    width: 100px;
+}
+
+/* .wrapper .top_navbar .logo a{
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 20px;
+    color: #fff;
+} */
+.clinicstaff-avatar{
+    position: sticky;
+    display: inline-block;
+    margin-left: 35px;
+}
+.doctor-avatar{
+    position: sticky;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.patientuser-avatar{
+    position: sticky;
+    display: inline-block;
+    margin-left: 35px;
+}
+#nurse-icon{
+    cursor: pointer;
+    width: 45px;
+    border: 1px solid #0087ff;
+}
+#doctor-icon{
+    cursor: pointer;
+    width: 45px;
+    border: 1px solid #0087ff;
+  }
+.avatar-content {
+    margin-top: 5px;
+    margin-left: -50px;
+    display: none;
+    background-color: white;
+    min-width: 100px;
+    border-radius: 3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+.avatar-content a {
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+.avatar-content a:hover {
+	border-radius: 3%;
+}
+.header-icons{
+    font-size: 18px;
+    /* display: inline-flex; */
+    /* margin-top: 15px; */
+}
+.header-icons i{
+    color: #1067d8;
+}
+.message-icon , .notif-icon{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.clinicstaff-avatar:hover .avatar-content {display: block;}
+
+.clinicstaff-avatar:hover #nurse-icon {background-color: none;}
+
+.doctor-avatar:hover .avatar-content {display: block;}
+
+.doctor-avatar:hover #nurse-icon {background-color: none;}
+
+.patientuser-avatar:hover .avatar-content {display: block;}
+
+.patientuser-avatar:hover #patientuser-icon {background-color: none;}

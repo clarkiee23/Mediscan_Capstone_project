@@ -1,0 +1,17 @@
+.landingpage{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('');  */
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../images/front_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landingpage::before {
+    opacity: 0.5;
+}
+
+
+/* background: linear-gradient(to bottom, #ffff, #b2ffc5, #00c60d); */
